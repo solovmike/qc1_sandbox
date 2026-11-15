@@ -1,0 +1,34 @@
+The compensation distance is given for the wall of the object. That is, for an m4 hole, compensation of +0.2 means that the hole must be 3.4mm in diameter. for an outer circle with a diameter of D, compensation of +0.2 means D+0.2mm.
+
+bambulab a1 mini .4 nozzle PETG:
+
+printer gap clibration: 
+
+inner bearing 12mm +.08
+inner bearing 25mm +.1
+inner bearing 50mm +.1
+
+outer bearing 42mm +.05
+outer bearing 65mm +.05
+
+nut 2.5mm -.05
+nut 3mm -.05
+nut 4mm -.05
+nut 5mm -.05
+
+screw for free with gap:
+screw 2.5mm +.1
+screw 3mm +.1
+screw 4mm +.1
+screw 5mm +.1
+
+screw for threaded/free
+screw 2.5mm +.0
+screw 3mm +.0
+screw 4mm +.0
+screw 5mm +.0
+
+screw for total threaded, no gap -.1
+
+
+no gap is +.005

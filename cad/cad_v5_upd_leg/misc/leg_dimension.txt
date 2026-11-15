@@ -1,0 +1,15 @@
+stanley:
+	Hip: 158мм
+	knee (to center): 150мм
+	knee (to pad): 177мм
+
+stella:
+	hip: 188мм
+	knee (to center): 167мм
+	knee (to pad): 180мм 
+
+my v1:
+	Hip: 160мм
+	knee (to center): 160мм
+	knee (to pad): 178мм
+	
