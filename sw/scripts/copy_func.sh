@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 
 copy() {
 	SSH_SOCKET="./build/ssh_socket"

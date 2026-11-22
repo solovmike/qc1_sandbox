@@ -45,6 +45,9 @@ run:
 sudo moteus-venv/bin/tview 
 sudo moteus-venv/bin/moteus_tool
 ```
+### other project requirements
+
+g++-aarch64-linux-gnu
 
 ### end
 
