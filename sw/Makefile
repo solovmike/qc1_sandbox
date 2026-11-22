@@ -7,6 +7,9 @@ build/first_run.out: $(SRCS)
 copy-all:
 	./scripts/copy_all.sh
 
+copy-build:
+	./scripts/copy_build.sh
+
 connect:
 	./scripts/connect_rpi.sh
 
