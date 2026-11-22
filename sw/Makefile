@@ -33,7 +33,9 @@ $(OBJ_DIR)/%.o: %.cpp
 	mkdir -p $(OBJ_DIR)
 	${CXX_RPI} ${GNR_FLAGS} $(INCLUDES) -c $^ -o $@
 
-deploy-all: $(TARGETS)
+build-all: $(TARGETS)
+
+deploy-all: build-all
 	make copy-build
 
 deploy-%: $(BUILD_DIR)/%.out
