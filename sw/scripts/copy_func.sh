@@ -7,6 +7,7 @@ copy() {
 
 	FILES="$1"
 	if [[ "$(basename $PWD)" == "sw" ]]; then 
+		mkdir -p build/
 		source ./config/local_settings.env
 		ssh -M -S ${SSH_SOCKET} -o ControlPersist=1m -fN ${RPI_USER}@${RPI_IP}
 		ssh -S ${SSH_SOCKET} -o ControlMaster=auto ${RPI_USER}@${RPI_IP} 'rm -rf ~/qc1_sw'
