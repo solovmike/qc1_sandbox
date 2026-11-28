@@ -8,13 +8,22 @@ int main(int argc, char** argv) {
 
 	pi3hat::Pi3HatMoteusFactory::Register();
 
-	moteus::Controller::Options options;
-	
-	options.id = 1;
+	moteus::Controller::Options options1;
+	moteus::Controller::Options options2;
+	moteus::Controller::Options options3;
 
-	moteus::Controller controller(options);
+	options1.id = 1;
+	options2.id = 2;
+	options3.id = 3;
 
-	controller.SetStop();
+
+	moteus::Controller controller1(options1);
+	moteus::Controller controller2(options2);
+	moteus::Controller controller3(options3);
+
+	controller1.SetStop();
+	controller2.SetStop();
+	controller3.SetStop();
 
 #if 0
 	while (true) {
